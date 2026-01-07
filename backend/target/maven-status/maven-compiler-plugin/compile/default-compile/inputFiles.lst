@@ -1,8 +1,8 @@
-D:\dev_work\JsonTools\json-diff-tool\backend\src\main\java\com\jsondiff\model\CompareSettings.java
-D:\dev_work\JsonTools\json-diff-tool\backend\src\main\java\com\jsondiff\JsonDiffApplication.java
-D:\dev_work\JsonTools\json-diff-tool\backend\src\main\java\com\jsondiff\model\DiffResult.java
-D:\dev_work\JsonTools\json-diff-tool\backend\src\main\java\com\jsondiff\service\JsonDiffService.java
-D:\dev_work\JsonTools\json-diff-tool\backend\src\main\java\com\jsondiff\util\JsonComparator.java
-D:\dev_work\JsonTools\json-diff-tool\backend\src\main\java\com\jsondiff\model\DiffItem.java
-D:\dev_work\JsonTools\json-diff-tool\backend\src\main\java\com\jsondiff\model\DiffStats.java
-D:\dev_work\JsonTools\json-diff-tool\backend\src\main\java\com\jsondiff\controller\JsonDiffController.java
+D:\dev-workspace\idea-workspace\some_demo\JsonTools\JsonTools\json-diff-tool\backend\src\main\java\com\jsondiff\JsonDiffApplication.java
+D:\dev-workspace\idea-workspace\some_demo\JsonTools\JsonTools\json-diff-tool\backend\src\main\java\com\jsondiff\model\DiffResult.java
+D:\dev-workspace\idea-workspace\some_demo\JsonTools\JsonTools\json-diff-tool\backend\src\main\java\com\jsondiff\model\DiffStats.java
+D:\dev-workspace\idea-workspace\some_demo\JsonTools\JsonTools\json-diff-tool\backend\src\main\java\com\jsondiff\model\DiffItem.java
+D:\dev-workspace\idea-workspace\some_demo\JsonTools\JsonTools\json-diff-tool\backend\src\main\java\com\jsondiff\util\JsonComparator.java
+D:\dev-workspace\idea-workspace\some_demo\JsonTools\JsonTools\json-diff-tool\backend\src\main\java\com\jsondiff\model\CompareSettings.java
+D:\dev-workspace\idea-workspace\some_demo\JsonTools\JsonTools\json-diff-tool\backend\src\main\java\com\jsondiff\service\JsonDiffService.java
+D:\dev-workspace\idea-workspace\some_demo\JsonTools\JsonTools\json-diff-tool\backend\src\main\java\com\jsondiff\controller\JsonDiffController.java
