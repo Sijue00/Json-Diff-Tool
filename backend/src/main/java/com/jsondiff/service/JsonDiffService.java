@@ -1,5 +1,7 @@
 package com.jsondiff.service;
 
+import com.fasterxml.jackson.dataformat.xml.XmlMapper;
+import com.fasterxml.jackson.dataformat.yaml.YAMLMapper;
 import com.jsondiff.model.*;
 import com.jsondiff.util.JsonComparator;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -19,9 +21,13 @@ import java.util.*;
 public class JsonDiffService {
     
     private final ObjectMapper objectMapper;
+    private final ObjectMapper xmlMapper;   //
+    private final ObjectMapper yamlMapper;  //
     
     public JsonDiffService(ObjectMapper objectMapper) {
         this.objectMapper = objectMapper;
+        this.xmlMapper = new XmlMapper();
+        this.yamlMapper = new YAMLMapper();
     }
     
     /**
@@ -268,12 +274,10 @@ public class JsonDiffService {
                 case "json":
                     return objectMapper.readValue(content, Object.class);
                 case "xml":
-                    // 这里应该使用XML解析器，简化实现
-                    throw new UnsupportedOperationException("XML解析暂不支持");
+                    return xmlMapper.readValue(content, Object.class);
                 case "yaml":
                 case "yml":
-                    // 这里应该使用YAML解析器，简化实现
-                    throw new UnsupportedOperationException("YAML解析暂不支持");
+                    return yamlMapper.readValue(content,Object.class);
                 default:
                     throw new IllegalArgumentException("不支持的格式: " + format);
             }
@@ -292,12 +296,12 @@ public class JsonDiffService {
                     return objectMapper.writerWithDefaultPrettyPrinter()
                             .writeValueAsString(data);
                 case "xml":
-                    // 这里应该使用XML转换器，简化实现
-                    throw new UnsupportedOperationException("XML转换暂不支持");
+                    return xmlMapper.writerWithDefaultPrettyPrinter()
+                        .writeValueAsString(data);
                 case "yaml":
                 case "yml":
-                    // 这里应该使用YAML转换器，简化实现
-                    throw new UnsupportedOperationException("YAML转换暂不支持");
+                   return yamlMapper.writerWithDefaultPrettyPrinter()
+                           .writeValueAsString(data);
                 default:
                     throw new IllegalArgumentException("不支持的格式: " + format);
             }
