@@ -9,5 +9,5 @@
 支持四种差异化导出查看，且可以在线预览
 
 
-后端核心差异比较算法使用了深度优先递归处理，目前只支持Json格式处理。
-<img width="959" height="706" alt="2" src="https://github.com/user-attachments/assets/957d12ac-8c77-4a71-b3b3-8c1238f3f68c" />
+后端核心差异比较算法使用了深度优先递归处理
+
