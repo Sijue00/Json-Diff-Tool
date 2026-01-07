@@ -1,0 +1,12 @@
+com\jsondiff\model\CompareSettings.class
+com\jsondiff\util\JsonComparator$1.class
+com\jsondiff\JsonDiffApplication.class
+com\jsondiff\model\DiffStats.class
+com\jsondiff\util\JsonComparator.class
+com\jsondiff\service\JsonDiffService.class
+com\jsondiff\model\DiffItem$DiffType.class
+com\jsondiff\model\DiffItem.class
+com\jsondiff\controller\JsonDiffController$ApiResponse.class
+com\jsondiff\model\DiffResult.class
+com\jsondiff\controller\JsonDiffController.class
+com\jsondiff\model\DiffResult$1.class

@@ -1,0 +1,31 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "张三",
+      "email": "zhangsan@example.com",
+      "profile": {
+        "age": 28,
+        "city": "北京",
+        "interests": ["编程", "阅读", "旅游"]
+      },
+      "active": true
+    },
+    {
+      "id": 2,
+      "name": "李四",
+      "email": "lisi@example.com",
+      "profile": {
+        "age": 32,
+        "city": "上海",
+        "interests": ["音乐", "运动"]
+      },
+      "active": false
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "timestamp": "2024-01-01T10:00:00Z",
+    "total": 2
+  }
+}

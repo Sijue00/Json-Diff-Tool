@@ -1,0 +1,38 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "张三",
+      "email": "zhangsan@example.com",
+      "profile": {
+        "age": 29,
+        "city": "北京",
+        "interests": ["编程", "阅读", "摄影"],
+        "bio": "热爱技术的工程师"
+      },
+      "active": true,
+      "role": "developer"
+    },
+    {
+      "id": 3,
+      "name": "王五",
+      "email": "wangwu@example.com",
+      "profile": {
+        "age": 26,
+        "city": "深圳",
+        "interests": ["设计", "绘画"]
+      },
+      "active": true
+    }
+  ],
+  "metadata": {
+    "version": "2.0",
+    "timestamp": "2024-01-15T14:30:00Z",
+    "total": 2,
+    "updated": true
+  },
+  "settings": {
+    "theme": "dark",
+    "notifications": true
+  }
+}
